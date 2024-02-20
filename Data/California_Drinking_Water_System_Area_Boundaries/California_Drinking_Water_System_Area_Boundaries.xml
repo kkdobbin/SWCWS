@@ -1,0 +1,1465 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20201221</pubdate>
+                <title>California Drinking Water System Area Boundaries</title>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>In order to provide an accurate data set of service area boundaries for California drinking water systems, the Division of Drinking Water of the California Water Resources Control Board (SWRCB DDW) has undertaken a project to vet and verify the data collected by the Tracking California's Water Boundary Tool (WBT).SWRCB DDW downloaded a copy of the current water system service areas loaded in the WBT as of June 27, 2019. Additional attribute fields indicating verification status, verification staff and system type were appended to the data set. SWRCB DDW staff are reviewing and validating the displayed boundaries of each service area as well as contacting the service providers regarding necessary corrections. The verification status of any particular service area may be found in the Verification Status field.This dataset is updated on a nightly basis. To view when a record was last updated turn on the LAST_UPDATE_DATE field via the &amp;quot;Show/Hide Columns&amp;quot; option on the table menu.For any questions regarding this dataset, please contact the Program Liaison Unit at DDW-DSU@waterboards.ca.gov.</abstract>
+            <purpose>Service area boundaries of drinking water service providers, as verified by the Division of Drinking Water, State Water Resources Control Board.</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <rngdates>
+                    <begdate>20201218</begdate>
+                </rngdates>
+            </timeinfo>
+            <current>Boundary dataset was received from Tracking California June 30, 2019, and is updated on an ongoing basis.</current>
+        </timeperd>
+        <status>
+            <progress>In work</progress>
+            <update>Continually</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-124.316090</westbc>
+                <eastbc>-114.168591</eastbc>
+                <northbc>41.998707</northbc>
+                <southbc>32.534250</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>drinking water</themekey>
+                <themekey>administrative boundaries</themekey>
+                <themekey>service areas</themekey>
+                <themekey>jurisdictional boundaries</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>Please note that the service areas may change without notice as the data set is dynamic and updated on an on-going basis.</useconst>
+        <datacred>Division of Drinking Water, California Water Resources Control Board, Tracking California, Public Health Institute Water Boundary Tool</datacred>
+        <native>Esri ArcGIS 12.5.1.22081</native>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>0</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>WBGIS.DDW_SABL</enttypl>
+                <enttypd>Water System Boundary</enttypd>
+                <enttypds>SWRCB</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID_1</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SABL_PWSID</attrlabl>
+                <attrdef>The seven digit number that is assigned to all public water systems preceded by CA. </attrdef>
+                <attrdefs>SDWIS</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <udom>SABL_PWSID is the key field for the spatial dataset. The values are from the SDWIS dataset and generated externally from the spatial data.</udom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>BOUNDARY_FILETYPE</attrlabl>
+                <attrdef>Indicates the type of boundary file used to create the shape. </attrdef>
+                <attrdefs>SWRCB</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>WBT Tool </edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>Boundary was created using the Water Boundary Tool hosted by Tracking California.</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>KMZ</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>Google Earth file - Keyhole Markup language Zipped</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>Google</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>Shapefile</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>A simple, nontopological format for storing the geometric location and attribute information of geographic features.</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>Esri</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>BOUNDARY_TYPE</attrlabl>
+                <attrdef>The specific boundary type. </attrdef>
+                <attrdefs>SWRCB</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>Water Service Area</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>Water System's water service area.</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>Jurisdictional Area</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>Water System's jurisdictional boundary area.</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>Wholesaler</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>boundary of wholesaler system.</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB </edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>VERIFIED_STATUS</attrlabl>
+                <attrdef>Indicates the verification status of the boundary.</attrdef>
+                <attrdefs>SWRCB</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>Not Verified</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>Boundary was entered in the WBT tool and has yet to be verified by DDW.</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>Pending</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>Boundary is in the process of being verified.</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>Verified</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>Boundary has been verified by DDW.</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>VERIFIED_NAME</attrlabl>
+                <attrdef>Name of person who summitted the boundary to DDW.</attrdef>
+                <attrdefs>SWRCB</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <udom>Text currently input by user. Format is First Initial. Last Name. </udom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>VERIFIED_TYPE</attrlabl>
+                <attrdef>Indicates the submitter's relationship to the boundary and/or dataset.</attrdef>
+                <attrdefs>SWRCB</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>District/LPA staff member</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>District/LPA staff member</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>State Board staff member</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>State Board staff member</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>Water System representative</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>Water System representative</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DT_VERIFIED</attrlabl>
+                <attrdef>Date the file was submitted to SWRCB. </attrdef>
+                <attrdefs>SWRCB</attrdefs>
+                <begdatea>20190701</begdatea>
+            </attr>
+            <attr>
+                <attrlabl>CREATED_USER</attrlabl>
+                <attrdef>Editor tracking generated field. </attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>ESRI_Anonymous</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>generic esri anonymous account name assigned when GP tool is not within an Esri framewrok</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CREATED_DATE</attrlabl>
+                <attrdef>Editor tracking generated field. </attrdef>
+                <attrdefs>SWRCB</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <udom>date</udom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LAST_EDITED_USER</attrlabl>
+                <attrdef>record last edited user</attrdef>
+                <attrdefs>SWRCB</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <udom>ESRI_Anonymous if updated via the Admin tool.</udom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LAST_EDITED_DATE</attrlabl>
+                <attrdef>record last edited date</attrdef>
+                <attrdefs>SWRCB</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <udom>any date from June 30, 2019 to present.</udom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>WATER_SYSTEM_NUMBER</attrlabl>
+                <attrdef>The seven digit number that is assigned to all public water systems in SDWIS.</attrdef>
+                <attrdefs>SWRCB</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <udom>SDWIS key field.</udom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>WATER_SYSTEM_NAME</attrlabl>
+                <attrdef>The water system name assigned in SDWIS.</attrdef>
+                <attrdefs>SWRCB</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <udom>The water system name assigned in SDWIS.</udom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ACTIVITY_STATUS_CD</attrlabl>
+                <attrdef>Indicates the activity status of the water system.</attrdef>
+                <attrdefs>SWRCB</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>A</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>Active</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>I</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>Inactive</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>P</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>Proposed</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ACTIVITY_DATE</attrlabl>
+                <attrdef>Indicates the activity status date of the water system.</attrdef>
+                <attrdefs>SWRCB</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <udom>date assigned in SDWIS.</udom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OWNER_TYPE_CODE</attrlabl>
+                <attrdef>Indicates the ownership type of the water system.</attrdef>
+                <attrdefs>SWRCB</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>F</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>Federal Government</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>L</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>Local Government</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>N</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>Native American</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>P</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>Private</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>M</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>Mixed (Private/Public)</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>S</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>State Government</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>COUNTY</attrlabl>
+                <attrdef>The county that the water system is in.</attrdef>
+                <attrdefs>SWRCB</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <udom>Any county in California. Assigned in SDWIS.</udom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>POPULATION</attrlabl>
+                <attrdef>the population that is served by the water system.</attrdef>
+                <attrdefs>SWRCB</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <udom>Population is assigned in SDWIS.</udom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>REGULATING_AGENCY</attrlabl>
+                <attrdef>The District or LPA who regulates the public water system or other entity.</attrdef>
+                <attrdefs>SWRCB</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <udom>Assigned in SDWIS.</udom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FEDERAL_CLASSIFICATION</attrlabl>
+                <attrdef>The federal classification of the water system. C=community, NTNC= non-transient non-community, NC=transient non-community, NP=non-public</attrdef>
+                <attrdefs>SWRCB</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>STATE_CLASSIFICATION</attrlabl>
+                <attrdef>The state classification of the water system.</attrdef>
+                <attrdefs>SWRCB</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>C</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>Community</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>NTNC</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>non-transient non-community</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>NC</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>transient non-community</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>NP</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>non-public</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>SSWS</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>state small water systems</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>LSS</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>local small water systems</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>RW</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>recycled water</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ADDR_LINE_ONE_TXT</attrlabl>
+                <attrdef>Line one of water system address in SDWIS.</attrdef>
+                <attrdefs>SWRCB</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <udom>Any address in the state of California.</udom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ADDR_LINE_TWO_TXT</attrlabl>
+                <attrdef>Line two of water system address in SDWIS.</attrdef>
+                <attrdefs>SWRCB</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <udom>Any address in the state of California.</udom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ADDRESS_CITY_NAME</attrlabl>
+                <attrdef>City of water system address in SDWIS.</attrdef>
+                <attrdefs>SWRCB</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <udom>Any city in California.</udom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ADDRESS_STATE_CODE</attrlabl>
+                <attrdef>State code of water system address in SDWIS.</attrdef>
+                <attrdefs>SWRCB</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <edom>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomv>CA</edomv>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvd>California</edomvd>
+                                                                                                            
+            
+            
+                        
+                        
+                        <edomvds>SWRCB</edomvds>
+                                                                                                          
+          
+          
+                    
+                    
+                    </edom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ADDRESS_ZIP_CODE</attrlabl>
+                <attrdef>Zip code of water system address in SDWIS.</attrdef>
+                <attrdefs>SWRCB</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <udom>Can be any zip code in California. Assigned in SDWIS.</udom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SERVICE_CONNECTIONS</attrlabl>
+                <attrdef>Number of service connections assigned to the water system in SDWIS.</attrdef>
+                <attrdefs>SWRCB</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <udom>This number varies by system and is assigned in SDWIS.</udom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                                                                          
+          
+          
+                    
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                                                                        
+        
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GLOBALID</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>AC_PHONE_NUMBER</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>AC_EMAIL</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.AREA</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.LEN</attrlabl>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20220811</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>California Water Resources Control Board</cntorg>
+                    <cntper>DDW PLU Unit</cntper>
+                </cntorgp>
+                <cntpos>Contact</cntpos>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <city>Sacramento</city>
+                    <state>CA </state>
+                    <postal>95814</postal>
+                </cntaddr>
+                <cntvoice>(916) 449-5158</cntvoice>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
