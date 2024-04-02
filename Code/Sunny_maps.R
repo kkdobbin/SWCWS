@@ -6,6 +6,7 @@ library(sf)
 library(ggmap)
 library(mapproj)
 library(maps)
+library(rgdal)
 
 #Load data
 Data <- read.csv("Data/Initial_sunny_data.csv")
@@ -16,6 +17,13 @@ Boundaries <- Boundaries %>% filter(ACTIVITY_S == "A") %>% filter(BOUNDARY_T=="W
 Data <- left_join(Data, Boundaries, by = c("PWSID" = "SABL_PWSID"))
 Data <- Data %>% filter(STATE_CLAS == "COMMUNITY")
 Data <- Data[!is.na(Data$Shape__Are),]
+Data$Population_Served <- as.numeric(Data$Population_Served)
+Data$Logpop <- log(Data$Population_Served) #make a log of population served for mapping
+
+Data$Centroid <- NA
+Data$Centroid <- st_centroid(Data$geometry) #Get centroids to service area boundaries
+
+
 Data_SWonly <- Data %>% filter(Uses_SW == "YES") #Filter to only those using SW
 
 Data_SWonly$SW_Type <- NA
@@ -35,7 +43,7 @@ caCountiesTmp <- tigris::counties(state = 06) %>%
 #maps
 SWCWS_Type <- ggplot() +
   geom_sf(data = caCountiesTmp) +
-  geom_sf(mapping = aes(colour = SW_Type, geometry = geometry), data = Data_SWonly, inherit.aes = FALSE) +
+  geom_sf(mapping = aes(colour = SW_Type, geometry = Centroid, size=Population_Served), data = Data_SWonly, inherit.aes = FALSE) +
   theme_void() +
   theme(legend.position = "bottom", 
         legend.margin=margin(0,0,0,0),
@@ -50,7 +58,7 @@ Data_noGW <- st_as_sf(Data_noGW)
 
 CWS_SW_only <- ggplot() +
   geom_sf(data = caCountiesTmp) +
-  geom_sf(mapping = aes(colour = SW_Type, geometry = geometry), data = Data_noGW, inherit.aes = FALSE) +
+  geom_sf(mapping = aes(colour = SW_Type, geometry = Centroid, size=Population_Served), data = Data_noGW, inherit.aes = FALSE) +
   theme_void() +
   theme(legend.position = "bottom", 
         legend.margin=margin(0,0,0,0),
